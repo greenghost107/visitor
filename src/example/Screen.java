@@ -1,6 +1,6 @@
-package com.company;
+package example;
 
-public class Keyboard implements ComputerPart{
+public class Screen implements ComputerPart {
 	
 	@Override
 	public void accept(Visitor visitor) {
@@ -8,6 +8,6 @@ public class Keyboard implements ComputerPart{
 	}
 	
 	public String printPart(){
-		return "Visiting Keyboard";
+		return "Visiting Screen";
 	}
 }

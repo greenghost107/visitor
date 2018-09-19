@@ -1,4 +1,4 @@
-package com.company;
+package example;
 
 public interface ComputerPart {
 	

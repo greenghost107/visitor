@@ -1,4 +1,4 @@
-package com.company;
+package example;
 
 public class ComputerVisitor implements Visitor {
 	@Override
